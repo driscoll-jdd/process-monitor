@@ -1,2 +1,2 @@
 # process-monitor
-A simple library for maintaining a process and monitoring and logging crashes
+This is a simple library which allows any go application to run very safely in production. Taking inspiration from services such as Docker, this library allows you to run X instances of your application - if any instance crashes or is killed, another is spun up immediately. If there is any output from your application instance when it ends, this is logged - allowing you to diagnose crashes and work on future releases.
